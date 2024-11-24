@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuyelwa Petunia Sewela - Personal Webpage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fahkwang:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Fahkwang', sans-serif;
+            background-color: #F9F9F9;
+            color: #444;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        header {
+            background-color: #A9BA9D; /* Softer olive green */
+            color: #FFF;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 4px solid #D0E0CC; /* Subtle light olive for contrast */
+        }
+
+        header h1 {
+            font-weight: 400;
+            font-size: 2.5rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #FFF;
+            text-decoration: none;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #D0E0CC;
+        }
+
+        .showcase {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #A9BA9D;
+            color: #FFF;
+        }
+
+        .showcase h1 {
+            font-size: 3rem;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        .showcase p {
+            font-size: 1.1rem;
+            margin: 0 auto;
+            max-width: 700px;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        .section h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #7C9C72; /* Lighter olive green */
+            font-size: 2rem;
+        }
+
+        .section p {
+            font-size: 1rem;
+            line-height: 1.8;
+            color: #444;
+            text-align: justify;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .skills-grid .box {
+            background-color: #FFF;
+            border: 1px solid #DDD;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .skills-grid .box:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #7C9C72;
+            color: #FFF;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+        }
+
+        .resume-button {
+            display: inline-block;
+            background-color: #D0E0CC;
+            color: #444;
+            text-align: center;
+            padding: 15px 30px;
+            margin: 20px auto;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 400;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .resume-button:hover {
+            background-color: #A9BA9D;
+            color: #FFF;
+        }
+
+        .contact p {
+            font-size: 1.1rem;
+        }
+
+        .contact a {
+            color: #7C9C72;
+            text-decoration: none;
+            font-weight: 400;
+            transition: color 0.3s ease;
+        }
+
+        .contact a:hover {
+            color: #A9BA9D;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav li {
+                margin: 0 10px;
+            }
+
+            .showcase h1 {
+                font-size: 2.5rem;
+            }
+
+            .skills-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vuyelwa Petunia Sewela</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="showcase">
+        <h1>Welcome to My Personal Webpage</h1>
+        <p>Technical Dynamo | Analytical Visionary | Data Alchemist | DevOps Explorer</p>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h1>About Me</h1>
+            <p>
+                 Hello there! I'm Vuyelwa Petunia Sewela, a Junior Salesforce Developer with a passion for turning complex challenges into elegant and impactful solutions.
+                 I thrive in dynamic environments where innovation meets precision, leveraging my technical expertise to create seamless Salesforce experiences. 
+                 With a tech-driven mindset and a research-oriented approach, I bring a keen analytical eye and an unwavering drive to grow and innovate in the ever-evolving tech landscape.
+
+            </p>
+            <a class="resume-button" href="Vuyelwa_Petunia_Sewela_Resume.pdf" download>Download My Resume</a>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h1>Skills</h1>
+            <div class="skills-grid">
+                <div class="box">
+                    <h3>Apex Programming</h3>
+                </div>
+                <div class="box">
+                    <h3>Data Analytics</h3>
+                </div>
+                <div class="box">
+                    <h3>Salesforce Customization</h3>
+                </div>
+                <div class="box">
+                    <h3>SQL</h3>
+                </div>
+                <div class="box">
+                    <h3>HTML/CSS</h3>
+                </div>
+                <div class="box">
+                    <h3>DevOps with Copado</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h1>Contact</h1>
+            <div class="contact">
+                <p>Phone: +27 76 487 9060</p>
+                <p>Email: <a href="mailto:mrslotonga@gmail.com">mrslotonga@gmail.com</a></p>
+                <p><a href="https://www.linkedin.com/in/vuyelwa-petunia-sewela-0b3ba834" target="_blank">LinkedIn Profile</a></p>
+                <p><a href="https://github.com/VuyiSewela/VuyiSewela" target="_blank">My Projects</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Vuyelwa Petunia Sewela &copy; 2024</p>
+    </footer>
+</body>
+</html>
